@@ -24,7 +24,7 @@ while(True):
         #multiplicação
         x = int(input("Digite um numero: "))
         y = int(input("Digite um segundo numero: "))
-        if(x or y == 0):
+        if(x == 0 or y == 0):
             print("O resultado da multiplicação é 0")
             continue
         mult = x
